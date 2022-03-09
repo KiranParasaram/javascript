@@ -1,0 +1,25 @@
+
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid red;
+    /* margin:150px; */
+    /* padding:50px; */
+    display:inline-block;
+}
+
+@media screen and (min-width:500px) and (max-width:800px){
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid red;
+    /* display:block */
+    flex-wrap: wrap;
+
+}
+    
+}

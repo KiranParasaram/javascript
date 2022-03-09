@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <button id="button">click me</button><br>
+    
+
+    <p id="date"></p>
+
+    <input type="text" >
+
+    <p id="p1">this is HTML page</p>
+    <p id="p2">hello world!</p>
+    </center>
+</body>
+<script>
+    document.getElementById("p1").innerHTML="THIS IS DYNAMIC JAVA-SCRIPT PAGE"
+    document.getElementById("p2").innerHTML="!!!!!!!!!!HURRAY***************"
+    document.getElementById("button").onclick=datee;
+
+    function datee()
+    {
+        document.getElementById("date").innerHTML=
+        Date();
+    }
+</script>
+</html>
